@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PRIMEX | Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='Login.css')}}">
+</head>
+
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <input type="text" placeholder="Enter Username">
+        <input type="password" placeholder="Enter Password">
+
+        <div class="btn-box">
+            <a class="button" href="{{url_for('Home')}}">Login</a>
+        </div>
+
+        <P style="font-size: 30px;">Don't have an account?
+            <a class="acc" href="{{url_for('Register')}}"> Register</a>
+        </P>
+    </div>
+</body>
+
+</html>

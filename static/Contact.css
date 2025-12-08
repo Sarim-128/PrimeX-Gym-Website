@@ -1,0 +1,89 @@
+body{
+    font-size: 26px;
+    display: flex;
+    font-family: 'Bebas Neue';
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.5) url('https://png.pngtree.com/thumb_back/fh260/background/20240329/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg') center/cover no-repeat fixed;
+    background-blend-mode:darken ;
+}
+
+.main-container{
+    width: 450px;
+    padding: 80px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin-top: 150px;
+    text-align: center;
+}
+.main-container h1{
+    font-size: 70px;
+    background: linear-gradient(90deg, orange, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-container input{
+    
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn{
+    background: linear-gradient(90deg, orange, red);
+    margin-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+
+}
+
+.btn:hover {
+    transform: scale(1.15);
+}
+
+.nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 50px;
+            background: linear-gradient(90deg, orange, red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+
+        .nav-links a {
+            color: orange;
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 0px;
+            margin-right: 60px;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: red;
+            text-shadow: 0 0 10px red;
+        }
+

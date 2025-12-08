@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PRIMEX | Register</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='Register.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="login-box">
+            <h1>Register</h1>
+
+            <input type="text" placeholder="Create Username">
+            <input type="password" placeholder="Create password">
+
+            
+                <a class="button" href="{{url_for('Home')}}">Register</a>
+            
+
+            <p style="font-size:30px ;">Already have an account?  
+            <a class="acc" href="{{url_for('Login')}}">Login</a>
+            </p>
+           
+        </div>
+    </body>
+</html>

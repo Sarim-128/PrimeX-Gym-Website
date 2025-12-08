@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About | PRIMEX</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='About.css')}}">
+
+</head>
+
+
+<body>
+
+    <!-- #HEADER -->
+    <header class="nav-bar">
+        <a href="{{url_for('Home') }}" class="logo">PrimeX</a>
+        <nav class="nav-links">
+            <a href="{{url_for('Membership') }}">Membership</a>
+            <a href="{{url_for('Gallery') }}">Gallery</a>
+            <a href="{{ url_for('Contact') }}">Contact Us</a>
+            <a href="{{ url_for('Login') }}">Logout</a>
+        </nav>
+    </header>
+
+
+    <h1 class="heading">About Prime<span class="ax">X</span></h1>
+    <section>
+
+        <div class="about-container">
+            <div class="about-text">
+
+                <!-- #ABOUT -->
+                <p class="para1">
+                    At <span class="highlight">PrimeX</span>, fitness isn’t just a goal — it’s a lifestyle.
+                    We believe that strength is built through dedication, discipline, and passion.
+                    Our mission is to help you unlock your full potential — both physically and mentally.
+                </p>
+
+                <p class="para2">
+                    Whether you’re lifting for the first time or chasing your next personal record,
+                    our world-class equipment, certified trainers, and motivating environment
+                    will help you rise to your <span class="highlight">Prime</span>.
+                </p>
+
+
+
+
+
+            </div>
+
+            <div class="about-images">
+                <img class="im1"
+                    src="https://images.unsplash.com/photo-1734668485281-c1d03fee6023?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <img class="im2"
+                    src="https://images.unsplash.com/photo-1685633224688-6a77675eb119?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- #LIST -->
+    <h2>Why Choose PrimeX?</h2>
+    <ul>
+        <li>💪 Modern gym equipment and machines</li>
+        <li>🔥 Expert trainers and personalized workout plans</li>
+        <li>🎵 High-energy environment to keep you motivated</li>
+        <li>🕒 24/7 access for members</li>
+        <li>🥗 Nutrition and wellness guidance</li>
+    </ul>
+
+
+    <!-- #QUOTE -->
+    <p class="quote-line">
+        “Push harder than yesterday if you want a different tomorrow.”
+    </p>
+
+</body>
+
+</html>

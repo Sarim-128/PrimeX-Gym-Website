@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PRIMEX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='Home.css')}}">
+</head>
+
+
+<body>
+    <!-- #HEADER -->
+    <header class="nav-bar">
+        <a href="{{ url_for('Home') }}" class="logo">PrimeX</a>
+        <nav class="nav-links">
+            <a href="{{url_for('About') }}">About</a>
+            <a href="{{url_for('Membership') }}">Membership</a>
+            <a href="{{url_for('Gallery') }}">Gallery</a>
+            <a href="{{ url_for('Contact') }}">Contact Us</a>
+            <a href="{{ url_for('Login') }}">Logout</a>
+        </nav>
+    </header>
+
+    <!-- #TITLE -->
+    <div class="header-container">
+        <span class="line"></span>
+        <div class="gymName">Prime </div>
+        <div class="gymName" style="margin-left: 0.5%; font-size: 175px;"> X</div>
+        <span class="line"></span>
+    </div>
+
+
+    <!-- #QUOTE -->
+    <div class="quote">
+        <p>Strength isn’t given. It’s earned.</p>
+        <p>Step in, rise up, and become your Prime.</p>
+    </div>
+
+
+    <!-- #BUTTONS -->
+    <div class="btn-box">
+        <a href="{{url_for('About') }}" class="btn">About Us</a>
+        <a href="{{url_for('Membership') }}" class="btn">Memberships</a>
+    </div>
+
+
+    <!-- #SOME TEXT -->
+    <div class="someText">
+        <p>Welcome to <span>prime X</span>- where strength meets discipline.<br>
+            Join a community, built on progress and power.</p>
+    </div>
+
+</body>
+</html>

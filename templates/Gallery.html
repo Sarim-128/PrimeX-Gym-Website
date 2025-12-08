@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PRIMEX | Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="{{url_for('static', filename='Gallery.css')}}" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- #HEADER -->
+    <header class="nav-bar">
+        <a href="{{ url_for('Home') }}" class="logo">PrimeX</a>
+        <nav class="nav-links">
+            <a href="{{url_for('About') }}">About</a>
+            <a href="{{url_for('Membership') }}">Membership</a>
+            <a href="{{url_for('Gallery') }}">Gallery</a>
+            <a href="{{ url_for('Contact') }}">Contact Us</a>
+            <a href="{{ url_for('Login') }}">Logout</a>
+        </nav>
+    </header>
+
+    
+    <div class="gallery-container">
+        <h1>Gallery</h1>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://www.villagegym.co.uk/media/5828/jebson-118-min.jpg" alt="Image 1">
+                <p>“Strength in Motion”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2022/12/cardio-or-weights-first-scaled.jpg?fit=2560%2C1707&ssl=1" alt="Image 2">
+                <p>“Push Your Limits”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://media.istockphoto.com/id/1937165727/photo/gym-group-and-dumbbell-rowing-exercise-for-power-muscle-and-challenge-in-workout-class.jpg?s=612x612&w=0&k=20&c=9A_yvrtN3MPv9EADVPK1et8nkyNVEv8tAXlcBv-dvfw=" alt="Image 3">
+                <p>“Train Together, Grow Together”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://www.fitshop.co.uk/blog/wp-content/uploads/2024/09/ROI_In_Gym_Equipment_1200_628-1024x536.jpg" alt="Image 4">
+                <p>“Tools for Your Goals”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://static.wixstatic.com/media/17e110_032f08252b544055b825183538b31be2~mv2.jpg/v1/fill/w_825,h_525,al_c,q_85,enc_auto/17e110_032f08252b544055b825183538b31be2~mv2.jpg" alt="Image 5">
+                <p>“Fuel Your Body Right”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://oxbridgehomelearning.uk/wp-content/uploads/2021/06/clipboard-smiling.jpg" alt="Image 6">
+                <p>“Guided by Experts”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://cdn.freepixel.com/thumb/free-photos-a-young-man-with-large-muscles-in-a-gym-setting-he-stands-confidently-in-front-of-a-mirror-showcasin-th-1004047991.jpg" alt="Image 7">
+                <p>“Power & Discipline”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://media.istockphoto.com/id/615883260/photo/difficult-doesnt-mean-impossible.jpg?s=612x612&w=0&k=20&c=cAEJvjTFRuF9H9gRov1Aj4X4I6xV6DSvMwWsf-2IW-0=" alt="Image 8">
+                <p>“Sweat Today, Shine Tomorrow”</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://jeffnippard.com/cdn/shop/articles/2.png?v=1716758049" alt="Image 9">
+                <p>“Transform Your Body”</p>
+            </div>
+
+            
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
